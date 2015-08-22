@@ -8,8 +8,10 @@ title = "Automated burrow setup"
 Life is too short to spend time manually installing and configuring software
 whenever you get a new machine.
 
+[github.com/khargosh/burrow](https://github.com/khargosh/burrow/) is my workspace that also doubles
+as a Go lang workspace.
 
-I wrote a comprehensive script called [burrow](https://github.com/khargosh/burrow/) that
+I wrote a comprehensive script called [khargo.sh](http://j.mp/khargosh) that
 automates machine configuration for *me*--your mileage may vary, but you're more
 than welcome to send in patches and modify the script to suit your own setup.
 
