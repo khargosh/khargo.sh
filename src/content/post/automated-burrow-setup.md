@@ -1,23 +1,30 @@
 +++
 date = "2015-08-22T21:11:24+05:30"
-draft = true
-title = "automated burrow setup"
+draft = false
+title = "Automated burrow setup"
 
 +++
 
 Life is too short to spend time manually installing and configuring software
-whenever you get a new machine.  My workplace and home has been overrun by a
-myriad devices and having to set up each of them for my work has been an
-annoying task for me.  Therefore, I wrote a comprehensive script called
-[burrow](github.com/khargosh/burrow/) that automates machine configuration for
-*me*--your mileage may vary, but you're more than welcome to send in patches
-and modify the script to suit your own setup.
+whenever you get a new machine.
 
-To use the script, open up a terminal and execute:
+
+I wrote a comprehensive script called [burrow](https://github.com/khargosh/burrow/) that
+automates machine configuration for *me*--your mileage may vary, but you're more
+than welcome to send in patches and modify the script to suit your own setup.
+
+Open up a terminal and execute the following to grab the script and configure
+your machine:
 
     $ curl -fsSL http://j.mp/khargosh > /tmp/khargo.sh
     $ bash /tmp/khargo.sh
 
-Logs will be written to `/tmp/khargosh_config.log`.
+
+## Debugging
+
+The script writes logs to `/tmp/khargosh_config.log` and you can also use
+`bash`'s debugging facilities:
+
+    $ bash -x /tmp/khargo.sh
 
 Happy hacking!
