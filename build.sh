@@ -2,8 +2,6 @@
 
 TOP_DIR=$(git rev-parse --show-toplevel)
 
-hugo \
-  -s ${TOP_DIR}/src \
-  -t hyde-x \
-  --config=${TOP_DIR}/src/config.toml \
-  -d ${TOP_DIR}/public
+cd ${TOP_DIR}/src
+
+hugo server --watch -t casper
