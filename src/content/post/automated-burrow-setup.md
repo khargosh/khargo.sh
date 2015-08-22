@@ -1,7 +1,7 @@
 +++
-date = "2015-08-22T19:52:54+05:30"
+date = "2015-08-22T21:11:24+05:30"
 draft = true
-title = "Automating burrow setup"
+title = "automated burrow setup"
 
 +++
 
