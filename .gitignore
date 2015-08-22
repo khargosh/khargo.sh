@@ -1,0 +1,9 @@
+*.a
+*.bkp
+*.o
+*.py[co]
+*.so
+*~
+.DS_Store
+Desktop.ini
+Thumbs.db
