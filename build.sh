@@ -2,6 +2,4 @@
 
 TOP_DIR=$(git rev-parse --show-toplevel)
 
-cd ${TOP_DIR}/src
-
-hugo server --watch -t casper
+hugo server --buildDrafts --watch -d ${TOP_DIR}/public -t casper -s ${TOP_DIR}/src
