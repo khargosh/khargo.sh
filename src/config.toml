@@ -1,3 +1,14 @@
 baseurl = "http://khargo.sh/"
 languageCode = "en-us"
 title = "khargo.sh"
+
+[params]
+  description = "Follow the white wabbit"
+  author = "Khargosh"
+  authorlocation = "New Delhi, India"
+  authorwebsite = "http://khargo.sh"
+  googleAnalyticsUserID = "UA-66646801-1"
+  githubName = "khargosh"
+  twitterName = "gorakhargosh"
+  facebookName = "yesudeep"
+  hideHUGOSupport = true
