@@ -2,6 +2,7 @@
 date = "2015-08-22T21:11:24+05:30"
 draft = false
 title = "Automated burrow setup"
+tags = ['go', 'golang', 'workspace', 'automated', 'machine', 'configuration']
 
 +++
 
